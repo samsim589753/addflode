@@ -1,0 +1,40 @@
+chen@chen-PC MINGW32 ~/Desktop
+$ cd addflode
+
+chen@chen-PC MINGW32 ~/Desktop/addflode (master)
+$ ls
+addflode/
+
+chen@chen-PC MINGW32 ~/Desktop/addflode (master)
+$ cd addflode
+
+chen@chen-PC MINGW32 ~/Desktop/addflode/addflode (master)
+$ git add addflode.txt
+
+chen@chen-PC MINGW32 ~/Desktop/addflode/addflode (master)
+$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   addflode.txt
+
+
+chen@chen-PC MINGW32 ~/Desktop/addflode/addflode (master)
+$ git commit -m "addflode"
+[master (root-commit) e87531f] addflode
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 addflode/addflode.txt
+
+chen@chen-PC MINGW32 ~/Desktop/addflode/addflode (master)
+$ git push origin master
+Username for 'https://github.com': samsim589753
+Password for 'https://samsim589753@github.com':
+Counting objects: 4, done.
+Writing objects: 100% (4/4), 251 bytes | 0 bytes/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To https://github.com/samsim589753/addflode.git
+ * [new branch]      master -> master
